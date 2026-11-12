@@ -30,3 +30,9 @@ Open a notebook below, then choose **Runtime → Run all**. If Colab displays it
 - [1D instructor solutions](notebooks/Prinz_Potential_Transfer_Operator_Solutions.ipynb) · [Open in Colab](https://colab.research.google.com/github/paulrobustelli/CSMP_150_2026/blob/main/notebooks/Prinz_Potential_Transfer_Operator_Solutions.ipynb)
 - [2D eight-well example: Prinz × double well](notebooks/Prinz_2D_Eight_Well_MSM.ipynb) · [Open in Colab](https://colab.research.google.com/github/paulrobustelli/CSMP_150_2026/blob/main/notebooks/Prinz_2D_Eight_Well_MSM.ipynb)
 - [2D sixteen-well example: Prinz × Prinz](notebooks/Prinz_2D_MSM.ipynb) · [Open in Colab](https://colab.research.google.com/github/paulrobustelli/CSMP_150_2026/blob/main/notebooks/Prinz_2D_MSM.ipynb)
+
+## PCA and TICA: a worked linear-algebra example
+
+[Notebook](notebooks/PCA_TICA_Worked_Example.ipynb) · [Open in Colab](https://colab.research.google.com/github/paulrobustelli/CSMP_150_2026/blob/main/notebooks/PCA_TICA_Worked_Example.ipynb)
+
+Work through centering, covariance entries, PCA eigenvectors, lagged covariance, the generalized TICA eigenproblem, whitening, projections, and implied timescales. A stationary two-coordinate Gaussian model separates a large fast fluctuation from a smaller slow fluctuation. Includes a reproducible 200,000-frame simulation, time-shuffle control, numerical checks, and exploration questions. Run all cells in standard Colab; no external data or package installation is required. Time is measured in simulation steps.
